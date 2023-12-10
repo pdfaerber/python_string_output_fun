@@ -21,3 +21,5 @@ def format_name3(f_name, l_name):
     return f'{frmt_f_name} {frmt_l_name}'
 
 print(format_name3("paTRICK", "fAErber"))
+
+print(format_name3(input('What is your first name?\n'), input('What is your last name?\n')))
